@@ -1,0 +1,84 @@
+Idee (Vision)
+====
+- Anwendung, die die zufällige Einteilung der Studierenden in Gruppen vornimmt
+- Kann auch für den Theorieunterricht als Beispiel dienen
+- Teile davon können auch verwendet werden, um den Import von Benutzerdaten in OLAT zu erleichtern.
+
+- Trennung UI - Domänenlogik illustrieren
+	- Swing und JavaFX UI mit derselben Logik
+
+- "Vorbild" Funktion
+	- SW-Design
+	- Ansprechendes UI (keine Kommandozeile)
+	- Keine Fehler während der Ausführung wg. Programmierfehler
+	- Kontrolle der Benutzerdaten
+
+Use Cases
+=========
+
+1. Klassen aus Evento Excel Import hinzufügen
+---------------------------------------------
+Haupterfolgsszenario
+
+1. Benutzer wählt Datei mit den Namen der Studierenden aus (im Evento Excel Import Format)
+	und übergibt ihn dem System.
+2. System prüft, ob die Datei vorhanden ist, liest sie ein und fügt die neuen Studierenden
+	der aktuellen Liste hinzu
+
+Schritte 1 und 2 werden solange wiederholt, bis alle Studierenden eingelesen wurden
+
+Erweiterungen
+
+2a System kann die Datei nicht finden, nicht lesen oder das Format ist nicht korrekt
+	1. System gibt eine möglichs aussagekräftige Fehlermeldung aus.
+
+
+2. CRUD Studierende
+-------------------
+Die Liste der Studierenden, die in Gruppen eingeteilt wird, muss vom Benutzer verändert werden
+können : Studierende einfügen, löschen und verändern.
+
+
+3. Gruppeneinteilung auslosen
+-----------------------------
+
+Main Success Scenario
+
+1. Benutzer bestimmt die Gruppengrössen (die unterschiedlich sein können) und
+	startet die Auslosung
+2. Das System wählt aus den eingelesenen Studierenden zufällig die Mitglieder der ersten Gruppe und
+	gibt dieser Gruppen die vorher bestimmte Nummer. Die ausgewählten Studierenden werden dann aus der
+	List gestrichen.
+3. Das System wiederholt Schritt 2, bis alle Studierenden einer Gruppe zugeteilt wurden.
+
+Extensions
+
+2a. System erkennt, dass die aktuelle Gruppe voll ist
+	1. Wenn die aktuelle Gruppe bereits genügend Studierende enthält, erzeugt das System die
+		nächste Gruppe mit der folgenden Nummer.
+
+4. Vorbereitung für Excel Import
+	1. Das System erzeugt eine Textdatei, die in Excel/OpenOffice/LibreOffice importiert werden kann
+	und die Gruppeneinteilung mit allen Teilnehmern enthält
+
+
+Weitere Spezifikationen
+=======================
+
+Benutzerschnittstelle
+---------------------
+Die Benutzerschnittstelle soll einfach aufgebaut sein. Der eigentliche Einteilungsprozess soll aber
+direkt am UI dargestellt werden. Jede neue Gruppe und jeder eingeteilte Studierende soll
+eine bestimmte Zeit lang angezeigt werden.
+
+Alle Texteingaben werden zuerst geprüft und allfällige Exceptions sollen als modaler Dialog dem
+Benutzer gezeigt werden.
+
+Die Gruppeneinteilung ist nach Abschluss der Auslosung sichtbar.
+
+
+Zuverlässigkeit
+---------------
+Das System soll sämtliche Benutzereingaben auf Korrektheit überprüfen und entsprechende Fehlermeldungen
+ausgeben.
+Treten Fehler während der Bedienung auf, drohen Reputationsschäden

@@ -1,0 +1,39 @@
+#1 8:00 PL Gentner
+23 	Peter 	Kevin 	13-568-605 	T.BA.IT.13/13.1.13HS.taZH 	peterkev@students.zhaw.ch
+2 	Balschun 	Tobias 	13-568-365 	T.BA.IT.13/13.1.13HS.taZH 	balsctob@students.zhaw.ch
+17 	Jucker 	Fabian 	13-568-233 	T.BA.IT.13/13.1.13HS.taZH 	juckefab@students.zhaw.ch
+31 	Sandrini 	Christian 	13-568-290 	T.BA.IT.13/13.1.13HS.taZH 	sandrchr@students.zhaw.ch
+11 	Gentner 	Andreas 	13-568-191 	T.BA.IT.13/13.1.13HS.taZH 	gentnand@students.zhaw.ch
+
+#2 8:30 PL Camenzind
+7 	Camenzind 	Silvan 	13-568-464 	T.BA.IT.13/13.1.13HS.taZH 	camensi1@students.zhaw.ch
+4 	Boss 	Marc 	13-568-381 	T.BA.IT.13/13.1.13HS.taZH 	bossmar2@students.zhaw.ch
+15 	Husmann 	Reto 	13-568-217 	T.BA.IT.13/13.1.13HS.taZH 	husmaret@students.zhaw.ch
+29 	Ryffel 	David Simon 	05-926-597 	T.BA.IT.13/13.1.13HS.taZH 	ryffedav@students.zhaw.ch
+
+#3 9:00 PL Petschel
+25 	Ravasio 	Mario 	13-568-324 	T.BA.IT.13/13.1.13HS.taZH 	ravasmar@students.zhaw.ch
+6 	Bürgisser 	Michel 	03-172-822 	T.BA.IT.13/13.1.13HS.taZH 	buergmic@students.zhaw.ch
+21 	Loth 	Manuel 	13-568-266 	T.BA.IT.13/13.1.13HS.taZH 	lothman1@students.zhaw.ch
+24 	Petschel 	Marcus 	11-683-240 	T.BA.IT.13/13.1.13HS.taZH 	petscmar@students.zhaw.ch
+
+#4 16:50 PL Warmers
+32 	Schoop 	Serge 	13-568-316 	T.BA.IT.13/13.1.13HS.taZH 	schooser@students.zhaw.ch
+27 	Rüede 	Nico Thomas 	00-726-315 	T.BA.IT.13/13.1.13HS.taZH 	ruedenic@students.zhaw.ch
+33 	Serwata 	Thomas Oliver 	08-731-432 	T.BA.IT.13/13.1.13HS.taZH 	serwatho@students.zhaw.ch
+35 	Warmers 	Benjamin 	13-568-563 	T.BA.IT.13/13.1.13HS.taZH 	warmeben@students.zhaw.ch
+28 	Rüegg 	Simon 	13-568-522 	T.BA.IT.13/13.1.13HS.taZH 	rueegsi1@students.zhaw.ch
+
+#5 17:20 PL Gerber
+13 	Glinski 	Sebastian 	12-296-992 	T.BA.IT.13/13.1.13HS.taZH 	glinsseb@students.zhaw.ch
+19 	Kopp Ronchetti 	Timon 	12-297-040 	T.BA.IT.13/13.1.13HS.taZH 	kopprtim@students.zhaw.ch
+34 	Solimine 	Luca 	13-568-548 	T.BA.IT.13/13.1.13HS.taZH 	solimluc@students.zhaw.ch
+18 	Kolly 	Reto Mathias 	10-928-315 	T.BA.IT.13/13.1.13HS.taZH 	kollyret@students.zhaw.ch
+12 	Gerber 	Patrick 	09-177-213 	T.BA.IT.13/13.1.13HS.taZH 	gerbepat@students.zhaw.ch
+
+#6 17:50 PL Frei
+8 	Cammarota 	Ivan 	08-928-640 	T.BA.IT.13/13.1.13HS.taZH 	cammaiva@students.zhaw.ch
+9 	Flepp 	Simon 	13-568-407 	T.BA.IT.13/13.1.13HS.taZH 	fleppsim@students.zhaw.ch
+10 	Frei 	Larissa 	04-703-203 	T.BA.IT.13/13.1.13HS.taZH 	freiplar@students.zhaw.ch
+16 	Iseli 	Marc 	13-568-241 	T.BA.IT.13/13.1.13HS.taZH 	iselima1@students.zhaw.ch
+30 	Sajtschik 	Simon 	13-568-340 	T.BA.IT.13/13.1.13HS.taZH 	sajtssim@students.zhaw.ch
