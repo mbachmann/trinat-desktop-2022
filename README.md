@@ -16,6 +16,10 @@ Installers for macOs or Windows can be found in the folder installers.
 
 **Windows Installer**
 
+![assets/win-installer.png](assets/win-installer.png)
+
+<br/>
+
 ### Required Java Version
 
 JDK17 or OpenJDK17
@@ -40,6 +44,7 @@ target/grouping/bin/java -m ch.zhaw.grouping/ch.zhaw.grouping.Launcher
 ### Build an installer
 
 Cross compilation is not possible. Mac installer only on Mac, Windows installer only on windows.
+The new installer can be found in the target/dist folder.
 
 For macOS:
 
