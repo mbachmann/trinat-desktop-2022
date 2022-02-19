@@ -5,7 +5,11 @@ Repository:
 
 ### Installers
 
-Installers for macOs or Windows can be found in the folder installers.
+Installers for _macOs_ or _Windows_ can be found in the folder installers.
+The installer provides a _JPMS-based_ Java runtime environment based on _JDK17_.
+This means, the _Grouping App_ should run without a separate _JDK17_ installation.
+
+The installation has been tested with macOS Big Sur (Intel) and Windows 10.
 
 **macOs Installer**
 
@@ -20,13 +24,14 @@ Installers for macOs or Windows can be found in the folder installers.
 
 <br/>
 
-### Required Java Version
+### Required Tools for development
 
-JDK17 or OpenJDK17
+- JDK17 or OpenJDK17
+- Maven (the project contains the maven wrapper: Windows mvnw, macOs oder Linux ./mvnw)
 
 ### Run the project from the IDE
 
-Open src/main/java ch.zhaw.grouping and start the Launcher
+Open the folder _src/main/java_ and package _ch.zhaw.grouping_ and start the Launcher
 
 ### Run the project from the command line
 
@@ -44,7 +49,7 @@ target/grouping/bin/java -m ch.zhaw.grouping/ch.zhaw.grouping.Launcher
 ### Build an installer
 
 Cross compilation is not possible. Mac installer only on Mac, Windows installer only on windows.
-The new installer can be found in the target/dist folder.
+The new installer can be found in the _target/dist_ folder.
 
 For macOS:
 
