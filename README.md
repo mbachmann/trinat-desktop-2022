@@ -9,7 +9,28 @@ Installers for _macOs_ or _Windows_ can be found in the folder installers.
 The installer provides a _JPMS-based_ Java runtime environment based on _JDK17_.
 This means, the _Grouping App_ should run without a separate _JDK17_ installation.
 
-The installation has been tested with macOS Big Sur (Intel) and Windows 10.
+The installation has been tested with macOS Big Sur (Intel),
+macOs Monterey (Apple Silicon) and Windows 10.
+
+### MacOs Security issue
+
+At the start of the Grouping App you will get a message:
+
+**Diese Anwendung ist beschädigt und kann nicht geöffnet werden**. 
+
+The reason for this message is the absence of a valid apple developer id signing. 
+To solve the problem do the following after the installation. 
+
+1. Open a terminal
+2. Navigate to Application
+3. Enable the start of the application
+
+```sh
+cd /Applications
+sudo xattr -r -d com.apple.quarantine Grouping.app
+```
+
+The Grouping App should start.
 
 **macOs Installer**
 
