@@ -1,0 +1,12 @@
+			PL	PS Technik	PS Sprache	L-Architektur	M3	TB II Technik	TB II Sprache	Team	Individual	Teambeitrag	Note	Note(gerundet)
+Gruppe 1				1.00	1.00	1.00	1.00	1.00	1.00	=(E2+F2+G2*3+H2*3+I2+J2)/10				
+Caduff	Flavio	caduffla@students.zhaw.ch								=K$2	0.00	0.00	=K$3+L$3+M$3	=RUNDEN(N$3*2;0)/2
+De Giglio	Pier-Paolo Alan	degigpie@students.zhaw.ch								=K$2	0.00	0.00	=K$4+L$4+M$4	=RUNDEN(N$4*2;0)/2
+Baer	Vanessa	baervan1@students.zhaw.ch								=K$2	0.00	0.00	=K$5+L$5+M$5	=RUNDEN(N$5*2;0)/2
+
+Gruppe 2				1.00	1.00	1.00	1.00	1.00	1.00	=(E7+F7+G7*3+H7*3+I7+J7)/10				
+Chan	Suzen	chansuz1@students.zhaw.ch								=K$7	0.00	0.00	=K$8+L$8+M$8	=RUNDEN(N$8*2;0)/2
+Field	Carlo	fieldcar@students.zhaw.ch								=K$7	0.00	0.00	=K$9+L$9+M$9	=RUNDEN(N$9*2;0)/2
+Altiner	Ibrahim	altinibr@students.zhaw.ch								=K$7	0.00	0.00	=K$10+L$10+M$10	=RUNDEN(N$10*2;0)/2
+Filliger	Christian	fillich1@students.zhaw.ch								=K$7	0.00	0.00	=K$11+L$11+M$11	=RUNDEN(N$11*2;0)/2
+
