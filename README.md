@@ -1,20 +1,20 @@
-# Grouping SWEN1 V2022
+# Trinat Desktop App V2022 (Java Fx)
 
 Repository: 
-[https://github.zhaw.ch/SWEN1-LP2019/SWEN1-Grouping-2022](https://github.zhaw.ch/SWEN1-LP2019/SWEN1-Grouping-2022)
+[https://github.com/mbachmann/trinat-desktop-2022](https://github.com/mbachmann/trinat-desktop-2022)
 
 ### Installers
 
 Installers for _macOs_ or _Windows_ can be found in the folder installers.
 The installer provides a _JPMS-based_ Java runtime environment based on _JDK17_.
-This means, the _Grouping App_ should run without a separate _JDK17_ installation.
+This means, the _Trinat App_ should run without a separate _JDK17_ installation.
 
 The installation has been tested with macOS Big Sur (Intel),
 macOs Monterey (Apple Silicon) and Windows 10.
 
 ### MacOs Security issue
 
-At the start of the Grouping App you will get a message:
+At the start of the _Trinat App_ you will get a message:
 
 **Diese Anwendung ist beschädigt und kann nicht geöffnet werden**. 
 
@@ -27,10 +27,10 @@ To solve the problem do the following after the installation.
 
 ```sh
 cd /Applications
-sudo xattr -r -d com.apple.quarantine Grouping.app
+sudo xattr -r -d com.apple.quarantine trinatapp.app
 ```
 
-The Grouping App should start.
+The Trinat App should start.
 
 **macOs Installer**
 
@@ -52,7 +52,7 @@ The Grouping App should start.
 
 ### Run the project from the IDE
 
-Open the folder _src/main/java_ and package _ch.zhaw.grouping_ and start the Launcher
+Open the folder _src/main/java_ and package _com.example_ and start the Launcher
 
 ### Run the project from the command line
 
@@ -64,7 +64,7 @@ For this modular projects, create and run a custom image:
 ```sh
 mvn clean compile javafx:jlink
 
-target/grouping/bin/java -m ch.zhaw.grouping/ch.zhaw.grouping.Launcher
+target/trinatapp/bin/java -m com.example/com.example.Launcher
 ```
 
 ### Build an installer
@@ -77,6 +77,9 @@ For macOS:
 ```shell
 mvn clean compile javafx:jlink -P macOs jpackage:jpackage
 ```
+
+For easy installation use Apple Developer license and sign the installer. 
+Without signing the message **Diese Anwendung ist beschädigt und kann nicht geöffnet werden**. will appear.
 
 For Windows:
 

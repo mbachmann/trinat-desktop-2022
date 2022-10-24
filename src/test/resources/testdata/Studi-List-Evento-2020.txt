@@ -1,7 +1,0 @@
-1 	Herr 	Altiner 	Ibrahim 	18-650-168 	jA.Immatrikuliert 	T.BA.IT.13/13.1.18HS.taZH 	altinibr@students.zhaw.ch 	
-2 	Frau 	Baer 	Vanessa 	18-653-303 	jA.Immatrikuliert 	T.BA.IT.13/13.1.18HS.taZH 	baervan1@students.zhaw.ch 	
-3 	Herr 	Caduff 	Flavio 	18-650-903 	jA.Immatrikuliert 	T.BA.IT.13/13.1.18HS.taZH 	caduffla@students.zhaw.ch 	
-4 	Frau 	Chan 	Suzen 	18-650-184 	jA.Immatrikuliert 	T.BA.IT.13/13.1.18HS.taZH 	chansuz1@students.zhaw.ch 	
-5 	Herr 	De Giglio 	Pier-Paolo Alan 	12-297-297 	jA.Beurlaubt 	T.BA.IT.19/19.1.19HS.taZH 	degigpie@students.zhaw.ch 	
-6 	Herr 	Field 	Carlo 	18-650-564 	jA.Immatrikuliert 	T.BA.IT.13/13.1.18HS.taZH 	fieldcar@students.zhaw.ch 	
-7 	Herr 	Filliger 	Christian 	18-650-614 	jA.Immatrikuliert 	T.BA.IT.13/13.1.18HS.taZH 	fillich1@students.zhaw.ch 	

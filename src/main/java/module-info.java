@@ -1,12 +1,11 @@
-module ch.zhaw.grouping {
+module com.example {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;
 
-    exports ch.zhaw.grouping;
-    exports ch.zhaw.grouping.ui;
-    opens ch.zhaw.grouping.ui to javafx.graphics, javafx.fxml;
-    opens ch.zhaw.grouping.ui.javafx to javafx.graphics, javafx.fxml;
-    opens ch.zhaw.grouping.domain to javafx.base;
-    opens ch.zhaw.grouping to javafx.fxml, javafx.graphics;
+    exports com.example;
+    exports com.example.ui;
+    opens com.example.ui to javafx.graphics, javafx.fxml;
+    opens com.example to javafx.fxml, javafx.graphics;
+
 }

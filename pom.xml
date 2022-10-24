@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
-   <groupId>ch.zhaw.grouping</groupId>
-   <artifactId>grouping-maven</artifactId>
+   <groupId>com.example</groupId>
+   <artifactId>trinat-desktop-2022</artifactId>
    <version>1.0-SNAPSHOT</version>
-   <name>grouping-maven</name>
+   <name>trinatapp-maven</name>
 
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,8 +54,8 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
             <configuration>
-               <source>16</source>
-               <target>16</target>
+               <source>17</source>
+               <target>17</target>
             </configuration>
          </plugin>
          <plugin>
@@ -67,10 +67,10 @@
                   <!-- Default configuration for running with: mvn clean javafx:run -->
                   <id>default-cli</id>
                   <configuration>
-                     <mainClass>ch.zhaw.grouping/ch.zhaw.grouping.Launcher</mainClass>
-                     <launcher>grouping</launcher>
-                     <jlinkZipName>grouping</jlinkZipName>
-                     <jlinkImageName>grouping</jlinkImageName>
+                     <mainClass>com.example/com.example.Launcher</mainClass>
+                     <launcher>trinatapp</launcher>
+                     <jlinkZipName>trinatapp</jlinkZipName>
+                     <jlinkImageName>trinatapp</jlinkImageName>
                      <noManPages>true</noManPages>
                      <stripDebug>true</stripDebug>
                      <noHeaderFiles>true</noHeaderFiles>
@@ -83,14 +83,14 @@
             <artifactId>jpackage-maven-plugin</artifactId>
             <version>1.4.0</version>
             <configuration>
-               <name>Grouping</name>
+               <name>trinatapp</name>
                <appVersion>1.0.0</appVersion>
-               <vendor>ch.zhaw</vendor>
-               <module>ch.zhaw.grouping/ch.zhaw.grouping.Launcher</module>
-               <runtimeImage>target/grouping</runtimeImage>
+               <vendor>com.example</vendor>
+               <module>com.example/com.example.Launcher</module>
+               <runtimeImage>target/trinatapp</runtimeImage>
                <modulePath>${java.home}/jmods</modulePath>
                <destination>target/dist</destination>
-               <macPackageName>grouping</macPackageName>
+               <macPackageName>trinatapp</macPackageName>
                <winMenu>true</winMenu>
                <winShortcut>true</winShortcut>
                <winDirChooser>true</winDirChooser>
@@ -104,6 +104,11 @@
                   <option>-Dfile.encoding=UTF-8</option>
                </javaOptions>
             </configuration>
+         </plugin>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.7.1</version>
          </plugin>
       </plugins>
    </build>
